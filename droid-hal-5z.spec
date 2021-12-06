@@ -7,8 +7,24 @@
 %define vendor_pretty ASUS
 %define device_pretty Zenfone 5z
 
+%define rpm_device 5z
+%define rpm_vendor asus
+
 %define installable_zip 1
 %define droid_target_aarch64 1
+
+%define straggler_files \
+/ADF\
+/APD\
+/asdf\
+/bugreports\
+/cache\
+/d\
+/factory\
+/product\
+/product_services\
+/sdcard\
+%{nil}
 
 %define android_config \
 #define WANT_ADRENO_QUIRKS 1\
